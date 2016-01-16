@@ -1,6 +1,6 @@
 The following programs were written in C for CS211 Fall 2015.
 
-#First: Looping
+##First: Looping
 Program checks whether the number is prime or not.
 Example Execution:
 $./first 10
@@ -10,7 +10,7 @@ yes
 $./first
 error
 
-#Second: Linked List
+##Second: Linked List
 Program implements a linked list that maintains a list of integers in sorted order.
 Example Execution:
 Lets assume we have 3 text files with the following contents:
@@ -35,7 +35,7 @@ $./second file3.txt
 $./second file4.txt
 error
 
-#Third: Hash Table
+##Third: Hash Table
 A program that implements a hash table containing integers with 10,000 buckets. This hash table uses collision resolution.
 Example Execution:
 Lets assume we have 2 text files with the following contents:
@@ -58,7 +58,7 @@ absent
 $./third file3.txt
 error
 
-#Fourth: Matrix Addition
+##Fourth: Matrix Addition
 A program that requires you to add 2 matrices.
 Example Execution:
 Lets assume we have a text file, file1.txt, with the following contents:
@@ -77,7 +77,7 @@ $./fourth file1.txt
 2 2 2
 2 2 2
 
-#Fifth: Matrix Multiplication
+##Fifth: Matrix Multiplication
 Program that multiplies two matrices.
 Example Execution:
 Lets assume we have ”file1.txt”:
@@ -96,7 +96,7 @@ $./seventh file1.txt
 4 4 4
 4 4 4
 
-#Sixth: String Operation
+##Sixth: String Operation
 Reads input string and generates acryonm from first letter of the words, and prints out.
 Example Execution:
 $./sixth Hello World!
@@ -106,7 +106,7 @@ WtC
 $./sixth Rutgers Scarlet Knights
 RSK
 
-#Seventh: String Operations II
+##Seventh: String Operations II
 This program forms a word whose letters are the last letters or punctuation of the words of the given sentence.
 Execution Example:
 $./seventh Hello World!
@@ -116,7 +116,7 @@ eo1
 $./seventh Rutgers Scarlet Knights
 sts
 
-#Eighth: Binary Search Tree
+##Eighth: Binary Search Tree
 Implements a Binary Search Tree
 Example Execution:
 Lets assume we have a file file1.txt with the following contents:
@@ -135,7 +135,7 @@ inserted 3
 inserted 2
 present 3
  
- #Ninght: Binary Search Tree with Deletion
+##Ninth: Binary Search Tree with Deletion
  Program executes a BST with the function to delete numbers.
  Lets assume we have a file file1.txt with the following contents:
 i 5
