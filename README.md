@@ -2,6 +2,7 @@ The following programs were written in C for CS211 Fall 2015.
 
 ##First: Looping
 Program checks whether the number is prime or not.
+
 Example Execution:
 
 $./first 10
@@ -18,27 +19,49 @@ error
 
 ##Second: Linked List
 Program implements a linked list that maintains a list of integers in sorted order.
+
 Example Execution:
+
 Lets assume we have 3 text files with the following contents:
+
 “file1.txt” is empty
+
 file2.txt:
+
 i 10
+
 i 12
+
 d 10
+
 i 5
+
 file3.txt:
+
 d 7
+
 i 10
+
 i 5
+
 i 10
+
 d 10
+
 Then the result will be:
+
 $./second file1.txt
+
 $./second file2.txt
+
 5 12
+
 $./second file3.txt
+
 5
+
 $./second file4.txt
+
 error
 
 ##Third: Hash Table
