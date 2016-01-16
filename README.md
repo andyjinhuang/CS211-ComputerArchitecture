@@ -3,11 +3,17 @@ The following programs were written in C for CS211 Fall 2015.
 ##First: Looping
 Program checks whether the number is prime or not.
 Example Execution:
+
 $./first 10
+
 no
+
 $./first 7
+
 yes
+
 $./first
+
 error
 
 ##Second: Linked List
