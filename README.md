@@ -1,6 +1,11 @@
+# CS211 Computer Architecture 
+By Meesun Park
+
+## Description 
 The following programs were written in C for CS211 Fall 2015.
 
-##First: Looping
+## Projects
+## First: Looping
 Program checks whether the number is prime or not.
 
 Example Execution:
@@ -17,7 +22,7 @@ $./first
 
 error
 
-##Second: Linked List
+## Second: Linked List
 Program implements a linked list that maintains a list of integers in sorted order.
 
 Example Execution:
@@ -64,7 +69,7 @@ $./second file4.txt
 
 error
 
-##Third: Hash Table
+## Third: Hash Table
 A program that implements a hash table containing integers with 10,000 buckets. This hash table uses collision resolution.
 
 Example Execution:
@@ -108,7 +113,7 @@ $./third file3.txt
 error
 
 
-##Fourth: Matrix Addition
+## Fourth: Matrix Addition
 A program that requires you to add 2 matrices.
 
 Example Execution:
@@ -144,7 +149,7 @@ $./fourth file1.txt
 
 
 
-##Fifth: Matrix Multiplication
+## Fifth: Matrix Multiplication
 Program that multiplies two matrices.
 
 Example Execution:
@@ -179,7 +184,7 @@ $./seventh file1.txt
 4 4 4
 
 
-##Sixth: String Operation
+## Sixth: String Operation
 Reads input string and generates acryonm from first letter of the words, and prints out.
 
 Example Execution:
@@ -197,7 +202,7 @@ $./sixth Rutgers Scarlet Knights
 RSK
 
 
-##Seventh: String Operations II
+## Seventh: String Operations II
 This program forms a word whose letters are the last letters or punctuation of the words of the given sentence.
 
 Execution Example:
@@ -214,7 +219,7 @@ $./seventh Rutgers Scarlet Knights
 
 sts
 
-##Eighth: Binary Search Tree
+## Eighth: Binary Search Tree
 Implements a Binary Search Tree
 
 Example Execution:
@@ -249,7 +254,7 @@ inserted 2
 
 present 3
 
-##Ninth: Binary Search Tree with Deletion
+## Ninth: Binary Search Tree with Deletion
  Program executes a BST with the function to delete numbers.
 
  Lets assume we have a file file1.txt with the following contents:
